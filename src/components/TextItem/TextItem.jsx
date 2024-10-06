@@ -1,7 +1,7 @@
 import React from 'react'
 
 const TextItem = () => {
-    const text = "James Webb Space Telescope💫";
+    const text = "James Webb Space Telescope";
 
   return (
     <>
