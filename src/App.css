@@ -1,0 +1,10 @@
+#root {
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+}
+
+/* animation */
+.animation{
+  @apply md:transition-transform md:duration-500 md:ease-in-out md:transform md:hover:scale-110 md:hover:z-10;
+}
