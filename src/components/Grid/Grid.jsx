@@ -22,7 +22,7 @@ const Grid = ({imgs}) => {
                       flippedIndex !== index && (
                         <img
                         src={`${backendUrl}/api/files/${img.collectionId}/${img.id}/${img.image}?token=`}
-                        className='w-full h-full object-cover animation'
+                        className='w-full h-full object-cover animation z-20 relative'
                         alt="image" 
                         />
                       )
