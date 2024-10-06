@@ -10,7 +10,7 @@ const TextItem = () => {
           <span
             className="animate-text-reveal inline-block [animation-fill-mode:backwards]"
             key={`${char}-${index}`}
-            style={{ animationDelay: `${index * 0.05}s` }}
+            style={{ animationDelay: `${index * 0.20}s` }}
           >
             {char === " " ? "\u00A0" : char}
           </span>
