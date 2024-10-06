@@ -5,7 +5,7 @@ const TextItem = () => {
 
   return (
     <>
-      <h1 className="overflow-hidden text-2xl font-bold leading-6 text-white">
+      <h1 className="md:text-4xl text-2xl font-bold leading-6 text-white md:py-10 py-12">
         {[...text].map((char, index) => (
           <span
             className="animate-text-reveal inline-block [animation-fill-mode:backwards]"

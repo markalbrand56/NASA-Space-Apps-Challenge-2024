@@ -29,11 +29,13 @@ function App() {
 
   return (
     <div className='flex flex-col h-full w-full relative'>
-      <div className='flex flex-row w-full h-15 justify-evenly p-4'>
+      <div className='flex flex-row w-full h-15 justify-evenly p-2'>
         <div className='w-full'>
-          <TextItem className='text-6xl' />
+          <TextItem className='text-5xl' />
         </div>
-        <BackgroundMusic />
+        <div className='absolute top-2 right-2'>
+          <BackgroundMusic />
+        </div>
       </div>
       <Grid imgs={data} />
     </div>
