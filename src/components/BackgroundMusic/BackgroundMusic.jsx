@@ -34,9 +34,9 @@ const BackgroundMusic = () => {
   };
 
   return (
-    <div className="absolute top-0 right-0 p-4">
+    <div>
       <button
-        className=" text-white font-bold py-2 px-4 rounded"
+        className="text-white font-bold py-2 px-4 rounded transform transition-transform duration-300 hover:scale-110"        
         onClick={() => {
           if (isPlaying) {
             pauseMusic();

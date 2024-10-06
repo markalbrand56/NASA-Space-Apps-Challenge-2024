@@ -29,7 +29,7 @@ const Grid = ({imgs}) => {
                   }
                   {
                       flippedIndex === index && (
-                          <div className="bg-opacity-90 p-2rounded-md w-60 h-60 flex flex-col justify-center items-center">
+                          <div className="bg-opacity-90 p-4 rounded-md w-full h-full flex flex-col justify-center items-center">
                             <p dangerouslySetInnerHTML={{ __html: img.description }}></p>
                           </div>
                       )
