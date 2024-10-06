@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react'
 import './App.css'
 import Grid from './components/Grid/Grid'
 import BackgroundMusic from './components/BackgroundMusic/BackgroundMusic'
+import TextItem from './components/TextItem/TextItem'
 
 import PocketBase from "pocketbase"
 
@@ -27,12 +28,12 @@ function App() {
   }, []);
 
   return (
-    <div className='flex flex-col bg-black h-full w-full'>
-      {
-        console.log(data)
-      }
-            <Grid imgs={data} />
-            <BackgroundMusic />
+    <div className='flex flex-col bg-black h-full w-full relative'>
+      <Grid imgs={data} />
+      <div className='flex justify-center items-center absolute inset-0'>
+        <TextItem className='text-4xl' />
+      </div>
+      <BackgroundMusic />
     </div>
   )
 }
