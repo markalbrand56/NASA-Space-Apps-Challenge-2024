@@ -29,6 +29,9 @@ function App() {
 
   return (
     <div className='flex flex-col bg-black h-full w-full relative'>
+      <div className='flex flex-row bg-white w-full h-15'>
+        <p className='text-4xl text-black'>Gallery</p>
+      </div>
       <Grid imgs={data} />
       <div className='flex justify-center items-center absolute inset-0'>
         <TextItem className='text-4xl' />
