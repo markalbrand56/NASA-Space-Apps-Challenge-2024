@@ -6,9 +6,9 @@
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=FF9900)
 ![Pocketbase](https://img.shields.io/badge/Pocketbase-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=FF9900)
 
-## Symphony of the Stars
+## Galactic Gaze
 
-*Harmonizing the James Webb Space Telescope in Music and Images.*
+**Challenge:** *Symphony of the Stars: Harmonizing the James Webb Space Telescope in Music and Images.*
 
 ### Team Members
 
